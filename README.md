@@ -1,18 +1,14 @@
 <h1 align="center">Hi 👋, I'm Biraj</h1>
 <h3 align="center">A programmer from India</h3>
 
-- 🌱 I’m currently learning **Automation With Python**
-
-- 📫 How to reach me: **biraj.pub@gmail.com**
+- 🌱 I’m currently learning **Automation With Python**.
+- 📫 You can reach me at **biraj.pub@gmail.com**.
 
 <table align="right">
   <tr>
     <td>
       <img width="400px" src="https://github-readme-stats.vercel.app/api/top-langs?username=biraj21&show_icons=true&locale=en&layout=compact&hide_border=true&theme=dark&icon_color=5194f0&bg_color=0d1117" alt="biraj21" />
-    </td>
-  </tr>
-  <tr>
-    <td>
+      <br/>
       <img width="400px" src="https://github-readme-stats.vercel.app/api?username=biraj21&show_icons=true&locale=en&layout=compact&hide_border=true&theme=dark&icon_color=5194f0&bg_color=0d1117" alt="biraj21" />
     </td>
   </tr>
