@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Biraj</h1>
 <h3 align="center">A programmer from India</h3>
 
-- 🌱 I’m currently learning **Automation With Python**.
+- 🌱 I’m currently trying a few things, hoping that the dots will somehow connect in the future.
 - 📫 You can reach me at **biraj.pub@gmail.com**.
 
 <table align="right">
