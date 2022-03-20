@@ -1,0 +1,16 @@
+@mixin flexbox($justify-content, $align-items: stretch, $direction: row) {
+    display: flex;
+
+    // only add these rules if the args are not defaults
+    @if $direction !=row {
+        flex-direction: $direction;
+    }
+
+    @if $justify-content !=flex-start {
+        justify-content: $justify-content;
+    }
+
+    @if $align-items !=stretch {
+        align-items: $align-items;
+    }
+}

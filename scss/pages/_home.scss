@@ -1,0 +1,25 @@
+@use "../utils/mixins" as m;
+
+#home-page {
+    // min-height: 500px;
+    text-align: center;
+    padding: 1rem;
+    @include m.flexbox(center, center, column);
+
+    img {
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        border: 5px solid #1d1b1b;
+        margin-bottom: 1rem;
+    }
+
+    > span {
+        @include m.flexbox(flex-start, center);
+    }
+
+    p {
+        margin: 1rem 0;
+        line-height: 1.2;
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "classlia",
+  "scripts": {
+    "scss": "sass --no-source-map --style compressed --watch scss:css"
+  }
+}
