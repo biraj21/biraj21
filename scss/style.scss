@@ -8,10 +8,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 :root {
     font-family: "Nunito", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 3px; // for vertical scroolbar
+    height: 3px; // for horizontal scrollbar
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: vars.$yellow;
+    border-radius: 5px;
+
+    // &:hover {
+    //     background: vars.$dark-blue;
+    // }
 }
 
 body {
@@ -24,6 +39,10 @@ body {
 .page {
     min-height: 100%;
     padding: 1rem;
+
+    &--inactive {
+        display: none;
+    }
 }
 
 .yellow {
@@ -35,9 +54,11 @@ h2 {
     letter-spacing: 0.8pt;
 }
 
-button {
+.next-page-btn {
+    display: block;
     height: 55px;
     border: 1px solid vars.$yellow;
+    margin: 0 auto;
     padding: 0 75px 0 30px;
     border-radius: 30px;
     background: none;
@@ -52,7 +73,7 @@ button {
     overflow: hidden;
     @include m.flexbox(flex-start, center);
 
-    .btn__icon {
+    &__icon {
         width: 55px;
         height: 55px;
         border-radius: 50%;

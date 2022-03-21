@@ -12,21 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Biraj</title>
 </head>
 
 <body>
     <!-- Home Page -->
-    <div class="page" id="home-page">
-        <img src="/images/me.jpg" alt="Me">
+    <div class="page home-page">
+        <img src="images/me.jpg" alt="Me">
         <h1 class="yellow">Hi, I am Biraj.</h1>
         <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
@@ -37,10 +37,12 @@
             </svg>
             &nbsp;Bangalore, India
         </span>
-        <p>I like Anime, Chess, Deep Learning, Mathematics &amp; Programming.</p>
-        <button>
+        <p>I like Anime, Chess, Deep Learning, Mathematics &amp; Programming. I am currently learning Deep Learning and
+            am interested in Computer Vision.</p>
+
+        <button class="next-page-btn">
             My Skills
-            <span class="btn__icon">
+            <span class="next-page-btn__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="feather feather-arrow-right">
@@ -52,10 +54,10 @@
     </div>
 
     <!-- My Skills Page -->
-    <div class="page" id="skills-page">
+    <div class="page skills-page">
         <h2>My Skills</h2>
 
-        <div id="skills">
+        <div class="skills">
             <!-- C -->
             <div class="skill">
                 <svg class="skill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -168,7 +170,7 @@
 
         <h2>Tools I Use</h2>
 
-        <div id="tools">
+        <div class="tools">
             <!-- Ubuntu -->
             <div class="tool">
                 <svg class="tool__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -198,7 +200,21 @@
                 <div class="tool__name">VS Code</div>
             </div>
         </div>
+
+        <button class="next-page-btn">
+            My Projects
+            <span class="next-page-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-arrow-right">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </span>
+        </button>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

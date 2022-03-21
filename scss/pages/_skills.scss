@@ -1,10 +1,16 @@
 @use "../utils/mixins" as m;
 
-#skills-page {
+.skills-page {
     text-align: center;
+    padding-top: 2rem;
 
-    #skills,
-    #tools {
+    // doing this because of CSS Specificity (-_-)
+    &.page {
+        padding-top: 2rem;
+    }
+
+    .skills,
+    .tools {
         $gap: 1.5rem;
         width: calc(100% + $gap);
         max-width: calc(850px + 5 * $gap);
@@ -35,8 +41,8 @@
     }
 
     @media screen and (min-width: 729px) {
-        #skills .skill,
-        #tools .tool {
+        .skills .skill,
+        .tools .tool {
             width: 170px;
             height: 170px;
 
