@@ -13,9 +13,10 @@ window.onload = e => {
 };
 
 function load_next_page(e) {
-    console.log(pages[active_page].id);
+    // makeing current page inactive
     pages[active_page].classList.add("page--inactive");
+
+    // making next page active
     ++active_page;
-    console.log(pages[active_page].id);
     pages[active_page].classList.remove("page--inactive");
 }

@@ -1,6 +1,10 @@
 {
-  "name": "classlia",
+  "name": "biraj",
   "scripts": {
+    "compile": "node compile.js",
     "scss": "sass --no-source-map --style compressed --watch scss:css"
+  },
+  "devDependencies": {
+    "eta": "^1.12.3"
   }
 }
