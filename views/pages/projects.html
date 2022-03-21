@@ -4,17 +4,14 @@
     <h2>My Projects</h2>
 
     <div class="projects">
-        <div class="project"></div>
+        <div class="project">
+            <img src="images/projects/findrep.webp" alt="Findrep">
+            <h4><a href="https://github.com/biraj21/findrep" target="_blank">Findrep</a></h4>
+            <p>A simple tool to find &amp; replace all the matches of a regular expression in multiple
+                files/directories.
+            </p>
+        </div>
     </div>
 
-    <button class="next-page-btn">
-        My Projects
-        <span class="next-page-btn__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-        </span>
-    </button>
+    <%~ includeFile('../components/next_page_btn.html', {btn_text: "Connect"}) %>
 </div>

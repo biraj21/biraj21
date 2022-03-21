@@ -1,4 +1,5 @@
 @use "../utils/mixins" as m;
+@use "../utils/variables" as vars;
 
 .skills-page {
     text-align: center;
@@ -23,7 +24,7 @@
             width: 150px;
             height: 150px;
             border-radius: 10px;
-            background-color: #212529;
+            background-color: vars.$dark-grey;
             margin: $gap 0 0 $gap;
             @include m.flexbox(space-evenly, center, column);
 

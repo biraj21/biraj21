@@ -1,6 +1,7 @@
 @use "utils/mixins" as m;
 @use "utils/variables" as vars;
 
+@use "pages/connect";
 @use "pages/home";
 @use "pages/projects";
 @use "pages/skills";
@@ -37,9 +38,14 @@ body {
     color: #fff;
 }
 
+h1,
+h2 {
+    letter-spacing: 0.8pt;
+}
+
 .page {
     min-height: 100%;
-    padding: 1rem;
+    padding: 1.5rem 0 2rem;
 
     &--inactive {
         display: none;
@@ -50,9 +56,9 @@ body {
     color: vars.$yellow;
 }
 
-h1,
-h2 {
-    letter-spacing: 0.8pt;
+a {
+    text-decoration: none;
+    color: vars.$yellow;
 }
 
 .next-page-btn {
