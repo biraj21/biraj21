@@ -12,14 +12,14 @@
     .projects {
         $gap: 1.5rem;
         width: calc(100% + $gap);
-        max-width: calc(900px + 3 * $gap);
         margin: calc(2rem - $gap) auto 2rem;
         transform: translateX(-$gap);
         @include m.flexbox(center);
         flex-wrap: wrap;
 
         .project {
-            width: 300px;
+            width: 100%;
+            max-width: 360px;
             border-radius: 10px;
             background-color: vars.$dark-grey;
             margin: $gap 0 0 $gap;
@@ -27,6 +27,7 @@
 
             img {
                 width: 100%;
+                height: 180px;
             }
 
             h4 {
@@ -34,8 +35,10 @@
             }
 
             p {
+                height: 38.4px;
                 text-align: left;
                 font-size: 0.9rem;
+                overflow: hidden;
             }
         }
     }
