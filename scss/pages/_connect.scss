@@ -1,3 +1,52 @@
+@use "../utils/mixins" as m;
+@use "../utils/variables" as vars;
+
 .connect-page {
     text-align: center;
+
+    .social-links {
+        @include m.flexbox(center, center, column);
+
+        .social-link {
+            width: 170px;
+            height: 42px;
+            border: 1px solid vars.$yellow;
+            margin-top: 1rem;
+            padding-left: 18px;
+            border-radius: 30px;
+            @include m.flexbox(center, center);
+            overflow: hidden;
+            position: relative;
+
+            &::after {
+                content: "";
+                width: 100%;
+                background-color: vars.$yellow;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+                transform: translateX(100%);
+                transition: transform 200ms ease-in;
+            }
+
+            &__icon {
+                color: #fff;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                left: 18px;
+                @include m.flexbox(center, center);
+            }
+
+            &:hover {
+                color: #000;
+
+                &::after {
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
 }

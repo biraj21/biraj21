@@ -12,8 +12,8 @@ window.onload = e => {
         pages[i].classList.add("page--inactive");
 };
 
-function load_next_page(e) {
-    // makeing current page inactive
+function load_next_page() {
+    // making current page inactive
     pages[active_page].classList.add("page--inactive");
 
     // making next page active
