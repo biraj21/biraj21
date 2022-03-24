@@ -8,12 +8,12 @@ window.addEventListener("load", () => {
 
     document.querySelectorAll(".next-page-btn")
         .forEach(btn => {
-            btn.addEventListener("click", () => load_page(active_page + 1))
+            btn.addEventListener("click", () => load_page(active_page + 1));
         });
 
     nav_btns = document.querySelectorAll(".nav-btn");
     nav_btns.forEach((btn, i) => {
-        btn.addEventListener("click", () => load_page(i))
+        btn.addEventListener("click", () => load_page(i));
     });
 
     for (let i = active_page + 1; i < pages.length; ++i)
@@ -22,6 +22,7 @@ window.addEventListener("load", () => {
 
 function load_page(page_no) {
     nav_btns[active_page].classList.remove("nav-btn--active");
+
     // making current page inactive
     pages[active_page].classList.add("page--inactive");
     pages[active_page].classList.remove("page--loaded");

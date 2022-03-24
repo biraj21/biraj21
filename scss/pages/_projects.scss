@@ -15,7 +15,7 @@
         animation-timing-function: ease-in;
         animation-fill-mode: forwards;
 
-        @for $i from 2 through 2 {
+        @for $i from 2 through 3 {
             &:nth-child(#{$i}) {
                 animation-delay: 100ms + 50ms * ($i - 2);
             }

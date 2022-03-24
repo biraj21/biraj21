@@ -2,9 +2,7 @@
 @use "../utils/variables" as vars;
 
 .home-page {
-    // min-height: 500px;
     text-align: center;
-    padding: 1rem;
     @include m.flexbox(center, center, column);
 
     img {
@@ -15,6 +13,7 @@
         margin-bottom: 1rem;
     }
 
+    // location
     > span {
         @include m.flexbox(flex-start, center);
     }

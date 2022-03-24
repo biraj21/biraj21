@@ -29,10 +29,6 @@
 ::-webkit-scrollbar-thumb {
     background-color: vars.$yellow;
     border-radius: 5px;
-
-    // &:hover {
-    //     background: vars.$dark-blue;
-    // }
 }
 
 body {
@@ -59,7 +55,7 @@ h2 {
 
 .page {
     min-height: 100%;
-    padding: 1.5rem 1rem 5.75rem;
+    padding: 2rem 1rem 5.75rem;
 
     &--inactive {
         display: none;

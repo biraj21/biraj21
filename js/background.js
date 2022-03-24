@@ -30,6 +30,7 @@ class Particle {
 const canvas = document.getElementById("background");
 canvas.width = window.innerWidth * 2;
 canvas.height = window.innerHeight * 2;
+
 const ctx = canvas.getContext("2d");
 
 let particles = null;
@@ -55,9 +56,7 @@ function init() {
         let dx = (Math.random() > 0.5 ? 1 : -1) * Math.random() * 2;
         let dy = (Math.random() > 0.5 ? 1 : -1) * Math.random() * 2;
 
-        let p = new Particle(r, x, y, dx, dy, "#fff");
-        p.draw(ctx);
-        particles.push(p);
+        particles.push(new Particle(r, x, y, dx, dy, "#fff"));
     }
 
     if (reqId != null)
@@ -70,8 +69,8 @@ function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     for (let p of particles) {
-        p.update();
         p.draw(ctx);
+        p.update();
     }
 
     connect();
