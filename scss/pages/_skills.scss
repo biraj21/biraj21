@@ -9,6 +9,27 @@
         padding-top: 2rem;
     }
 
+    &.page--loaded {
+        .skill {
+            animation-name: appear;
+            animation-duration: 300ms;
+            animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+        }
+
+        @for $i from 2 through 10 {
+            @if ($i < 8) {
+                .skills .skill:nth-child(#{$i}) {
+                    animation-delay: 100ms + 50ms * ($i - 2);
+                }
+            } @else {
+                .tools .skill:nth-child(#{$i - 7}) {
+                    animation-delay: 100ms + 50ms * ($i - 2);
+                }
+            }
+        }
+    }
+
     .skills,
     .tools {
         $gap: 1.5rem;
@@ -19,13 +40,13 @@
         @include m.flexbox(center);
         flex-wrap: wrap;
 
-        .skill,
-        .tool {
+        .skill {
             width: 150px;
             height: 150px;
             border-radius: 10px;
             background-color: vars.$dark-grey;
             margin: $gap 0 0 $gap;
+            opacity: 0;
             @include m.flexbox(space-evenly, center, column);
 
             &__icon {

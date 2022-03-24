@@ -37,12 +37,12 @@ let reqId = null;
 
 window.addEventListener("load", init);
 
-window.onresize = () => {
+window.addEventListener("resize", () => {
     canvas.width = window.innerWidth * 2;
     canvas.height = window.innerHeight * 2;
 
     init();
-};
+});
 
 function init() {
     let n_particles = Math.round((canvas.width * canvas.height) / 9500);

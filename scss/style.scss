@@ -15,6 +15,7 @@
 
 :root {
     font-family: "Nunito", sans-serif;
+    font-size: 16px;
     scrollbar-width: 5px;
     scrollbar-color: vars.$yellow;
 }
@@ -58,7 +59,7 @@ h2 {
 
 .page {
     min-height: 100%;
-    padding: 1.5rem 1rem 2rem;
+    padding: 1.5rem 1rem 5.75rem;
 
     &--inactive {
         display: none;
@@ -72,6 +73,45 @@ h2 {
 a {
     text-decoration: none;
     color: vars.$yellow;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+    border-radius: 30px;
+    position: fixed;
+    left: 50%;
+    bottom: 1.5rem;
+    transform: translateX(-50%);
+    z-index: 100;
+
+    .nav-btn {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: none;
+        border: none;
+        color: #fff;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: 300ms background-color, 300ms color;
+        @include m.flexbox(center, center);
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &.nav-btn--active {
+            background-color: vars.$yellow;
+            color: #000;
+        }
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+    }
 }
 
 .next-page-btn {
@@ -128,5 +168,11 @@ a {
         &::after {
             transform: translateX(0);
         }
+    }
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
     }
 }
