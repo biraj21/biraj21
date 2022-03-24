@@ -2,7 +2,7 @@ let pages;
 
 let active_page = 0;
 
-window.onload = e => {
+window.onload = () => {
     pages = document.querySelectorAll(".page");
 
     document.querySelectorAll(".next-page-btn")
