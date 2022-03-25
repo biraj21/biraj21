@@ -4,22 +4,11 @@
 .projects-page {
     text-align: center;
 
-    // doing this because of CSS Specificity (-_-)
-    &.page {
-        padding-top: 2rem;
-    }
-
     &.page--loaded .project {
         animation-name: appear;
         animation-duration: 300ms;
         animation-timing-function: ease-in;
         animation-fill-mode: forwards;
-
-        @for $i from 2 through 3 {
-            &:nth-child(#{$i}) {
-                animation-delay: 100ms + 50ms * ($i - 2);
-            }
-        }
     }
 
     .projects {

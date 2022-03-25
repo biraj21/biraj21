@@ -4,30 +4,11 @@
 .skills-page {
     text-align: center;
 
-    // doing this because of CSS Specificity (-_-)
-    &.page {
-        padding-top: 2rem;
-    }
-
-    &.page--loaded {
-        .skill {
-            animation-name: appear;
-            animation-duration: 300ms;
-            animation-timing-function: ease-in;
-            animation-fill-mode: forwards;
-        }
-
-        @for $i from 2 through 10 {
-            @if ($i < 8) {
-                .skills .skill:nth-child(#{$i}) {
-                    animation-delay: 100ms + 50ms * ($i - 2);
-                }
-            } @else {
-                .tools .skill:nth-child(#{$i - 7}) {
-                    animation-delay: 100ms + 50ms * ($i - 2);
-                }
-            }
-        }
+    &.page--loaded .skill {
+        animation-name: appear;
+        animation-duration: 300ms;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
     }
 
     .skills,
