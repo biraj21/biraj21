@@ -1,3 +1,5 @@
+"use strict";
+
 class Particle {
     constructor(radius, x, y, dx, dy, color) {
         this.radius = radius;
@@ -46,7 +48,11 @@ window.addEventListener("resize", () => {
 });
 
 function init() {
-    let n_particles = Math.round((canvas.width * canvas.height) / 9500);
+    let n_particles = Math.min(
+        500,
+        Math.round((canvas.width * canvas.height) / 9500)
+    );
+
     particles = [];
 
     for (let i = 0; i < n_particles; ++i) {

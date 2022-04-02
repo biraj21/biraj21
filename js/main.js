@@ -1,3 +1,5 @@
+"use strict";
+
 let pages;
 let nav_btns;
 

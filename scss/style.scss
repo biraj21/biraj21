@@ -1,5 +1,5 @@
-@use "utils/mixins" as m;
-@use "utils/variables" as vars;
+@use "utils/mixins"as m;
+@use "utils/variables"as vars;
 
 @use "pages/connect";
 @use "pages/home";
@@ -106,6 +106,23 @@ nav {
         &:hover {
             background-color: rgba(255, 255, 255, 0.1);
             color: #fff;
+        }
+    }
+
+    @media screen and (orientation: landscape) {
+        display: block;
+        left: unset;
+        right: 1rem;
+        bottom: 50%;
+        transform: translate(0, 50%);
+
+        .nav-btn {
+            margin-right: 0;
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 }
