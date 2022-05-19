@@ -1,6 +1,9 @@
 {
-  "name": "biraj",
-  "scripts": {
-    "scss": "sass --no-source-map --style compressed --watch scss:css"
-  }
+    "name": "biraj",
+    "scripts": {
+        "scss": "sass --no-source-map --style compressed --watch scss:css"
+    },
+    "devDependencies": {
+        "sass": "^1.51.0"
+    }
 }
