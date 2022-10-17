@@ -1,56 +1,56 @@
 @use "../utils/mixins" as m;
-@use "../utils/variables" as vars;
 
 .connect-page {
-    text-align: center;
+  text-align: center;
 
-    .social-links {
-        min-height: calc(100vh - 2rem - 5.75rem - 32.8px);
-        @include m.flexbox(center, center, column);
+  .social-links {
+    min-height: calc(100vh - 2rem - 5.75rem - 32.8px);
+    @include m.flexbox(center, center, column);
 
-        .social-link {
-            width: 170px;
-            height: 42px;
-            border: 1px solid vars.$yellow;
-            margin-top: 1rem;
-            padding-left: 18px;
-            border-radius: 30px;
-            overflow: hidden;
-            position: relative;
-            @include m.flexbox(center, center);
+    .social-link {
+      width: 170px;
+      height: 42px;
+      border: 1px solid var(--primary-color);
+      margin-top: 1rem;
+      padding-left: 18px;
+      border-radius: 30px;
+      overflow: hidden;
+      position: relative;
+      @include m.flexbox(center, center);
 
-            &::after {
-                content: "";
-                width: 100%;
-                height: 100%;
-                background-color: vars.$yellow;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: -1;
-                transform: translateX(100%);
-                transition: transform 200ms ease-in;
-            }
+      &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: transform 200ms ease-in;
+      }
 
-            &__icon {
-                width: 30px;
-                height: 30px;
-                position: absolute;
-                left: 18px;
-                @include m.flexbox(center, center);
-            }
+      &__icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        left: 18px;
+        @include m.flexbox(center, center);
+      }
 
-            &:hover {
-                color: #000;
+      &:hover {
+        color: #000;
 
-                &::after {
-                    transform: translateX(0);
-                }
-
-                .github {
-                    fill: #000;
-                }
-            }
+        &::after {
+          transform: translateX(0);
         }
+
+        .github {
+          fill: #000;
+        }
+      }
     }
+  }
 }
