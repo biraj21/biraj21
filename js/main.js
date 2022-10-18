@@ -38,6 +38,9 @@ window.addEventListener("load", () => {
 });
 
 function loadPage(pageNo) {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+
   navBtns[activePage].classList.remove("nav-btn--active");
 
   // making current page inactive
