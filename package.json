@@ -5,8 +5,8 @@
   "author": "Biraj <biraj.pub@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "scss": "sass --no-source-map --style compressed scss:css",
-    "scss-watch": "sass --no-source-map --style compressed --watch scss:css"
+    "scss": "npx sass --no-source-map --style compressed scss:css",
+    "scss-watch": "npx sass --no-source-map --style compressed --watch scss:css"
   },
   "devDependencies": {
     "sass": "^1.51.0"
