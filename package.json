@@ -1,14 +1,27 @@
 {
-  "name": "biraj",
-  "main": "index.js",
-  "repository": "https://github.com/biraj21/biraj21.git",
-  "author": "Biraj <biraj.pub@gmail.com>",
-  "license": "MIT",
+  "name": "biraj21",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "scss": "npx sass --no-source-map --style compressed scss:css",
-    "scss-watch": "npx sass --no-source-map --style compressed --watch scss:css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "component": "bash ./scripts/component.sh"
+  },
+  "dependencies": {
+    "devicons-react": "^1.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-router-dom": "^6.6.2",
+    "vite-plugin-svgr": "^2.4.0"
   },
   "devDependencies": {
-    "sass": "^1.51.0"
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "sass": "^1.57.1",
+    "vite": "^4.0.0"
   }
 }

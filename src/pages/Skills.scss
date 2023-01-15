@@ -1,0 +1,16 @@
+#skills-page {
+  .skills {
+    $gap: 1.5rem;
+    width: calc(100% + $gap);
+    max-width: calc(5 * (170px + $gap));
+    margin: calc(2rem - $gap) auto 2rem;
+    transform: translateX(-$gap);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .skill {
+      margin: $gap 0 0 $gap;
+    }
+  }
+}
