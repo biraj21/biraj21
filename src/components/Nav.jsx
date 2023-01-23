@@ -1,4 +1,4 @@
-import { Home, Code, Link, Folder } from "react-feather";
+import { Home, Code, Link, Folder, MessageCircle } from "react-feather";
 import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 
@@ -15,6 +15,10 @@ export default function Nav() {
 
       <NavLink to="/projects" className="nav__btn">
         <Folder />
+      </NavLink>
+
+      <NavLink to="/quotes" className="nav__btn">
+        <MessageCircle />
       </NavLink>
 
       <NavLink to="/connect" className="nav__btn">

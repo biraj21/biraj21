@@ -11,7 +11,7 @@ import "./Connect.scss";
 export default function Connect() {
   return (
     <div className="page" id="connect-page">
-      <h2>Connect With Me</h2>
+      <h1>Connect With Me</h1>
 
       <div className="social-links">
         <a className="social-link" href="https://github.com/biraj21" target="_blank">

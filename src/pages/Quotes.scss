@@ -1,0 +1,13 @@
+#quotes-page {
+  .quotes {
+    margin: 20px 0;
+
+    .quote {
+      margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

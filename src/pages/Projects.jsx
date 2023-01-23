@@ -57,7 +57,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className="page" id="projects-page">
-      <h2>My Projects</h2>
+      <h1>My Projects</h1>
 
       <div className="projects">
         {projects.map((project, i) => (
@@ -65,7 +65,7 @@ export default function Projects() {
         ))}
       </div>
 
-      <NextPageLink to="/connect">Connect</NextPageLink>
+      <NextPageLink to="/quotes">Quotes</NextPageLink>
     </div>
   );
 }

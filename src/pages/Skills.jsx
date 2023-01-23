@@ -42,7 +42,7 @@ const skills = [
 export default function Skills() {
   return (
     <div className="page" id="skills-page">
-      <h2>Skills &amp; Tools</h2>
+      <h1>Skills &amp; Tools</h1>
 
       <div className="skills">
         {skills.map((skill, i) => (
