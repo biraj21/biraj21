@@ -24,7 +24,7 @@ export default function Quotes() {
       <h1>Quotes / Thoughts 🗿</h1>
       <div className="quotes">
         {quotes.map(({ quote, date }, i) => (
-          <Quote quote={quote} date={date} key={i} />
+          <Quote quote={quote} date={date} appearDelayIndex={i} key={i} />
         ))}
       </div>
       <NextPageLink to="/connect">Connect</NextPageLink>

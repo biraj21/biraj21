@@ -1,14 +1,7 @@
 .project {
   width: 100%;
   max-width: 360px;
-  border-radius: 10px;
-  background-color: var(--dark-grey);
   padding: 10px;
-  opacity: 0;
-  animation-name: appear; // defined in index.scss
-  animation-duration: 300ms;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
 
   a:hover {
     text-decoration: underline;

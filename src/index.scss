@@ -48,8 +48,18 @@ a {
   text-align: center;
 }
 
-@keyframes appear {
-  to {
-    opacity: 1;
+.card {
+  border-radius: 10px;
+  background-color: var(--dark-grey);
+  opacity: 0;
+  animation-name: appear; // defined in index.scss
+  animation-duration: 300ms;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+
+  @keyframes appear {
+    to {
+      opacity: 1;
+    }
   }
 }

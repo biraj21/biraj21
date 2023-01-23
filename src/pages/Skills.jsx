@@ -50,7 +50,7 @@ export default function Skills() {
         ))}
       </div>
 
-      <NextPageLink to="/projecs">Connect</NextPageLink>
+      <NextPageLink to="/projects">Projects</NextPageLink>
     </div>
   );
 }
