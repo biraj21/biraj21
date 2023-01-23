@@ -39,7 +39,7 @@ export default function Connect() {
           <span className="social-link__icon">
             <Dev />
           </span>
-          Dev.io
+          DEV
         </a>
 
         <a className="social-link" href="https://twitter.com/biraj21__" target="_blank">
