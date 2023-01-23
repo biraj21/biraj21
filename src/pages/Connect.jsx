@@ -1,9 +1,9 @@
+import { ReactComponent as Dev } from "./assets/dev.svg";
 import { ReactComponent as GitHub } from "./assets/github.svg";
 import { ReactComponent as Gmail } from "./assets/gmail.svg";
 import { ReactComponent as Kaggle } from "./assets/kaggle.svg";
 import { ReactComponent as Lichess } from "./assets/lichess.svg";
 import { ReactComponent as LinkedIn } from "./assets/linkedin.svg";
-import { ReactComponent as Telegram } from "./assets/telegram.svg";
 import { ReactComponent as Twitter } from "./assets/twitter.svg";
 import { ReactComponent as Upwork } from "./assets/upwork.svg";
 import "./Connect.scss";
@@ -35,11 +35,11 @@ export default function Connect() {
           Kaggle
         </a>
 
-        <a className="social-link" href="https://t.me/jarib21" target="_blank">
+        <a className="social-link" href="https://dev.to/biraj21" target="_blank">
           <span className="social-link__icon">
-            <Telegram />
+            <Dev />
           </span>
-          Telegram
+          Dev.io
         </a>
 
         <a className="social-link" href="https://twitter.com/biraj21__" target="_blank">
