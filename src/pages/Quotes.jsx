@@ -16,6 +16,10 @@ const quotes = [
     quote: "Everybody wants to be loved, but very few want to love.",
     date: "Nov 10, 2022", // not really
   },
+  {
+    quote: "People who treat you like you're replaceable can f*ck off!",
+    date: "Jan 27, 2022",
+  },
 ];
 
 export default function Quotes() {
