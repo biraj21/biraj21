@@ -6,7 +6,7 @@ const projects = [
   {
     name: "Blogs Website (React & Express)",
     thumbnail: "/images/projects/blogs.png",
-    github: "https://github.com/biraj21/react_blogs",
+    github: "https://github.com/biraj21/writers-avenue",
     description: "A blog website written in React, Sass, Node.js (Express) & MariaDB (SQL) for database.",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
   {
     name: "GitHub Profile (React)",
     thumbnail: "/images/projects/react-github-api.png",
-    github: "https://github.com/biraj21/findrep",
+    github: "https://github.com/biraj21/react-github-profile",
     description: "A simple website written in React that uses GitHub Search API to retrive a user's profile.",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
   {
     name: "Memory Pairs Game",
     thumbnail: "/images/projects/memory-pairs.png",
-    github: "https://github.com/biraj21/react_memory_game",
+    github: "https://github.com/biraj21/react-memory-game",
     description: "A really simple matching pairs game with minimal UI written in React.",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
   {
     name: "Brainf*ck Interpreter",
     thumbnail: "/images/projects/bf-interpreter.webp",
-    github: "https://github.com/biraj21/bf_interpreter",
+    github: "https://github.com/biraj21/brainfuck-interpreter",
     description: "An interpreter for the Brainf*ck programming language written in C.",
   },
   {
