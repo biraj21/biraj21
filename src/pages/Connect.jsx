@@ -4,7 +4,6 @@ import { ReactComponent as Gmail } from "./assets/gmail.svg";
 import { ReactComponent as Kaggle } from "./assets/kaggle.svg";
 import { ReactComponent as Lichess } from "./assets/lichess.svg";
 import { ReactComponent as LinkedIn } from "./assets/linkedin.svg";
-import { ReactComponent as Twitter } from "./assets/twitter.svg";
 import { ReactComponent as Upwork } from "./assets/upwork.svg";
 import "./Connect.scss";
 
@@ -40,13 +39,6 @@ export default function Connect() {
             <Dev />
           </span>
           DEV
-        </a>
-
-        <a className="social-link" href="https://twitter.com/biraj21__" target="_blank">
-          <span className="social-link__icon">
-            <Twitter />
-          </span>
-          Twitter
         </a>
 
         <a className="social-link" href="https://www.upwork.com/freelancers/~0128419153d91057b6">

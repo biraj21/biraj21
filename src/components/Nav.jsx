@@ -17,9 +17,9 @@ export default function Nav() {
         <Folder />
       </NavLink>
 
-      <NavLink to="/quotes" className="nav__btn">
+      {/* <NavLink to="/quotes" className="nav__btn">
         <MessageCircle />
-      </NavLink>
+      </NavLink> */}
 
       <NavLink to="/connect" className="nav__btn">
         <Link />

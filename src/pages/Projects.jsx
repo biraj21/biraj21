@@ -4,7 +4,7 @@ import "./Projects.scss";
 
 const projects = [
   {
-    name: "Blogs Website (React & Express)",
+    name: "Writer's Avenue (React & Express)",
     thumbnail: "/images/projects/blogs.png",
     github: "https://github.com/biraj21/writers-avenue",
     description: "A blog website written in React, Sass, Node.js (Express) & MariaDB (SQL) for database.",
@@ -65,7 +65,8 @@ export default function Projects() {
         ))}
       </div>
 
-      <NextPageLink to="/quotes">Quotes</NextPageLink>
+      {/* <NextPageLink to="/quotes">Quotes</NextPageLink> */}
+      <NextPageLink to="/connect">Connect</NextPageLink>
     </div>
   );
 }
