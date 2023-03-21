@@ -12,8 +12,8 @@ export default function Home() {
         &nbsp;Bangalore, India
       </span>
       <p>
-        i like anime, chess, machine learning, mathematics, programming & typing in lowercase. i am currently just
-        exploring things.
+        i like anime, chess, machine learning, mathematics & programming. i am currently exploring things - web
+        development, linux, docker & stuff.
       </p>
       <NextPageLink to="/skills">My Skills</NextPageLink>
     </div>
