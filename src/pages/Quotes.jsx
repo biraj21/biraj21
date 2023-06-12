@@ -20,6 +20,10 @@ const quotes = [
     quote: "People who treat you like you're replaceable can f*ck off!",
     date: "Jan 27, 2022",
   },
+  {
+    quote: "I'm not a pro. I'm just a really good beginner.",
+    date: "Jun 9, 2023",
+  },
 ];
 
 export default function Quotes() {
