@@ -10,7 +10,7 @@
     "component": "bash ./scripts/component.sh"
   },
   "dependencies": {
-    "devicons-react": "^1.2.5",
+    "devicons-react": "^1.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-feather": "^2.0.10",

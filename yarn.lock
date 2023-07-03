@@ -619,10 +619,10 @@ debug@^4.1.0:
   dependencies:
     ms "2.1.2"
 
-devicons-react@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/devicons-react/-/devicons-react-1.2.5.tgz#45048d1193cf475b6d04fccb39aa7cc208506edd"
-  integrity sha512-osy4eh8SsSUh5FOA/Ibng+KM1jJ9ibV5R/mK/A4pHgJiCIXFQz6OBcVEBzQnlg9j5PxhK5Az8Y3UYzGMk3UDbQ==
+devicons-react@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/devicons-react/-/devicons-react-1.2.6.tgz#99fb8aefca765cacf91e8e011f4cda75d9ca158c"
+  integrity sha512-C9mnEcT13HLiVOKk+xeO1jDJ5LPFv3xE13yvtrxaJ9zpNIa91xVUORkqK12GTyvSP8R4RhU0woBpFjRxNUVEKA==
 
 electron-to-chromium@^1.4.251:
   version "1.4.284"
