@@ -5,9 +5,9 @@ import "./Projects.scss";
 const projects = [
   {
     name: "Writer's Avenue (React & Express)",
-    thumbnail: "/images/projects/blogs.png",
+    thumbnail: "/images/projects/blogs.webp",
     github: "https://github.com/biraj21/writers-avenue",
-    description: "A blog website written in React, Sass, Node.js (Express) & MariaDB (SQL) for database.",
+    description: "A blog website written in React, Sass, TypeScript, Node.js (Express) & MariaDB (SQL) for database.",
   },
   {
     name: "Findrep (Python)",
@@ -18,19 +18,19 @@ const projects = [
   },
   {
     name: "GitHub Profile (React)",
-    thumbnail: "/images/projects/react-github-api.png",
+    thumbnail: "/images/projects/react-github-api.webp",
     github: "https://github.com/biraj21/react-github-profile",
     description: "A simple website written in React that uses GitHub Search API to retrive a user's profile.",
   },
   {
     name: "Array Visualizer",
-    thumbnail: "/images/projects/array-vis.png",
+    thumbnail: "/images/projects/array-vis.webp",
     github: "https://github.com/biraj21/array-visualizer",
     description: "A web based tool that can be used to visualize multi-dimensional arrays.",
   },
   {
     name: "Memory Pairs Game",
-    thumbnail: "/images/projects/memory-pairs.png",
+    thumbnail: "/images/projects/memory-pairs.webp",
     github: "https://github.com/biraj21/react-memory-game",
     description: "A really simple matching pairs game with minimal UI written in React.",
   },
