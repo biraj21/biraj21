@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="page" id="home-page">
       <img src="images/me.jpeg" alt="Me" />
-      <h1 className="yellow">hi, i am Biraj.</h1>
+      <h1 className="yellow">Hi, I'm Biraj.</h1>
       <span className="location">
         <MapPin width="15" height="15" />
         &nbsp;Bangalore, India
       </span>
       <p>
-        i like anime, chess, machine learning, mathematics & programming. i am currently exploring things - web
-        development, linux, docker & stuff.
+        I like Anime, Sherlock Holmes, Machine Learning, Mathematics, and Programming. Currently exploring web
+        development & AI/ML
       </p>
       <NextPageLink to="/skills">My Skills</NextPageLink>
     </div>
