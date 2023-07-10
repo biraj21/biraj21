@@ -1,10 +1,10 @@
-import { ReactComponent as Dev } from "./assets/dev.svg";
-import { ReactComponent as GitHub } from "./assets/github.svg";
-import { ReactComponent as Gmail } from "./assets/gmail.svg";
-import { ReactComponent as Kaggle } from "./assets/kaggle.svg";
-import { ReactComponent as Lichess } from "./assets/lichess.svg";
-import { ReactComponent as LinkedIn } from "./assets/linkedin.svg";
-import { ReactComponent as Upwork } from "./assets/upwork.svg";
+import { ReactComponent as Dev } from "assets/dev.svg";
+import { ReactComponent as GitHub } from "assets/github.svg";
+import { ReactComponent as Gmail } from "assets/gmail.svg";
+import { ReactComponent as Kaggle } from "assets/kaggle.svg";
+import { ReactComponent as Lichess } from "assets/lichess.svg";
+import { ReactComponent as LinkedIn } from "assets/linkedin.svg";
+import { ReactComponent as Upwork } from "assets/upwork.svg";
 import "./Connect.scss";
 
 export default function Connect() {
