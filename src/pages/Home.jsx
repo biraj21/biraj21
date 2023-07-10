@@ -12,8 +12,8 @@ export default function Home() {
         &nbsp;Bangalore, India
       </span>
       <p>
-        I like Anime, Sherlock Holmes, Machine Learning, Mathematics, and Programming. Currently exploring web
-        development & AI/ML
+        I like Anime, Sherlock Holmes, Machine Learning, Mathematics, &amp; Programming. Currently exploring web
+        development &amp; AI/ML
       </p>
       <NextPageLink to="/skills">My Skills</NextPageLink>
     </div>
