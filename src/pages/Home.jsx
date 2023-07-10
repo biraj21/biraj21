@@ -13,7 +13,7 @@ export default function Home() {
       </span>
       <p>
         I like Anime, Sherlock Holmes, Machine Learning, Mathematics, &amp; Programming. Currently exploring web
-        development &amp; AI/ML
+        development &amp; AI/ML.
       </p>
       <NextPageLink to="/skills">My Skills</NextPageLink>
     </div>
