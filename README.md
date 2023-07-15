@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Biraj</h1>
 
-- 🌱 I am currently learning Backend Development
-- 📫 You can reach me at **biraj.pub@gmail.com**
-- 👨‍💻 All of my projects are available at [https://biraj21.netlify.app/](https://biraj21.netlify.app/)
+- 🌱 i am currently learning Golang & Flask
+- 📫 you can reach me at **biraj.pub@gmail.com**
+- 👨‍💻 my projects are available at [https://biraj21.netlify.app/](https://biraj21.netlify.app/projects)
 
 <table align="right">
     <tr><td>
