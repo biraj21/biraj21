@@ -46,7 +46,7 @@ const projects = [
     description: "A small & fun matching pairs game with minimal UI written in React.",
   },
   {
-    name: "GitHub Profilea",
+    name: "GitHub Profile Viewer",
     thumbnail: "/images/projects/react-github-api.webp",
     github: "https://github.com/biraj21/react-github-profile",
     description: "A website written in React that uses GitHub Search API to retrive a user's profile.",
