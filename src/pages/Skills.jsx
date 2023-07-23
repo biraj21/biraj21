@@ -4,6 +4,7 @@ import { ReactComponent as Css3Original } from "assets/devicons/css3-original.sv
 import { ReactComponent as DockerOriginal } from "assets/devicons/docker-original.svg";
 import { ReactComponent as ExpressOriginal } from "assets/devicons/express-original.svg";
 import { ReactComponent as GitOriginal } from "assets/devicons/git-original.svg";
+import { ReactComponent as GoOriginalWordmark } from "assets/devicons/go-original-wordmark.svg";
 import { ReactComponent as Html5Original } from "assets/devicons/html5-original.svg";
 import { ReactComponent as JavascriptOriginal } from "assets/devicons/javascript-original.svg";
 import { ReactComponent as JestPlain } from "assets/devicons/jest-plain.svg";
@@ -35,6 +36,7 @@ const skills = [
   { name: "MySQL", svg: <MysqlOriginal /> },
   { name: "MongoDB", svg: <MongodbOriginal /> },
   { name: "Git", svg: <GitOriginal /> },
+  { name: "Go", svg: <GoOriginalWordmark /> },
   { name: "Linux (Ubuntu)", svg: <UbuntuPlain /> },
   { name: "Docker", svg: <DockerOriginal /> },
   { name: "HTML5", svg: <Html5Original /> },

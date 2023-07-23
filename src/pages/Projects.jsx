@@ -4,22 +4,16 @@ import "./Projects.scss";
 
 const projects = [
   {
-    name: "Writer's Avenue (React & Express)",
+    name: "Writer's Avenue",
     thumbnail: "/images/projects/blogs.webp",
     github: "https://github.com/biraj21/writers-avenue",
     description: "A blog website written in React, TypeScript, Node.js (Express) & MariaDB (SQL) for database.",
   },
   {
-    name: "Findrep (Python)",
+    name: "Findrep",
     thumbnail: "/images/projects/findrep.webp",
     github: "https://github.com/biraj21/findrep",
     description: "A GUI tool to find & replace all the matches of a regular expression in multiple files.",
-  },
-  {
-    name: "GitHub Profile (React)",
-    thumbnail: "/images/projects/react-github-api.webp",
-    github: "https://github.com/biraj21/react-github-profile",
-    description: "A website written in React that uses GitHub Search API to retrive a user's profile.",
   },
   {
     name: "Array Visualizer",
@@ -28,16 +22,10 @@ const projects = [
     description: "A web based tool that can be used to visualize multi-dimensional arrays.",
   },
   {
-    name: "Memory Pairs Game",
-    thumbnail: "/images/projects/memory-pairs.webp",
-    github: "https://github.com/biraj21/react-memory-game",
-    description: "A small & fun matching pairs game with minimal UI written in React.",
-  },
-  {
-    name: "Tic Tac Toe",
-    thumbnail: "/images/projects/tic-tac-toe.webp",
-    github: "https://github.com/biraj21/tic-tac-toe",
-    description: "A Tic Tac Toe game AI using Minimax algorithm with Alpha-Beta Pruning.",
+    name: "JSON Parser",
+    thumbnail: "/images/projects/json-parser.webp",
+    github: "https://github.com/biraj21/json-parser",
+    description: "A Go-based JSON lexer & parser from scratch with error detection, including line & column.",
   },
   {
     name: "Brainf*ck Interpreter",
@@ -50,6 +38,24 @@ const projects = [
     thumbnail: "/images/projects/texterm.webp",
     github: "https://github.com/biraj21/texterm",
     description: "A very simple command-line text editor written in C with only Standard Library.",
+  },
+  {
+    name: "Memory Pairs Game",
+    thumbnail: "/images/projects/memory-pairs.webp",
+    github: "https://github.com/biraj21/react-memory-game",
+    description: "A small & fun matching pairs game with minimal UI written in React.",
+  },
+  {
+    name: "GitHub Profilea",
+    thumbnail: "/images/projects/react-github-api.webp",
+    github: "https://github.com/biraj21/react-github-profile",
+    description: "A website written in React that uses GitHub Search API to retrive a user's profile.",
+  },
+  {
+    name: "Tic Tac Toe",
+    thumbnail: "/images/projects/tic-tac-toe.webp",
+    github: "https://github.com/biraj21/tic-tac-toe",
+    description: "A Tic Tac Toe game AI using Minimax algorithm with Alpha-Beta Pruning.",
   },
 ];
 
