@@ -1,25 +1,19 @@
-import { Route, Routes } from "react-router-dom";
-import Background from "components/Background";
-import Nav from "components/Nav";
-import Connect from "pages/Connect";
-import Home from "pages/Home";
-import Projects from "pages/Projects";
-import Quotes from "./pages/Quotes";
-import Skills from "pages/Skills";
-import "./App.scss";
+import Background from "@/components/Background";
+import Nav from "@/components/Nav";
+import Connect from "@/components/sections/Connect";
+import Home from "@/components/sections/Home";
+import Projects from "@/components/sections/Projects";
+import Skills from "@/components/sections/Skills";
 
 export default function App() {
   return (
     <div className="app">
       <Background />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/connect" element={<Connect />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/quotes" element={<Quotes />} />
-        <Route path="/skills" element={<Skills />} />
-      </Routes>
+      <Home />
+      <Skills />
+      <Projects />
+      <Connect />
 
       <Nav />
     </div>

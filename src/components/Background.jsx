@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import "./Background.scss";
+import { useEffect, useRef } from "react";
 
 class Particle {
   constructor(radius, x, y, dx, dy, color) {
@@ -33,8 +32,14 @@ class Particle {
 }
 
 export default function Background() {
+  const canvasRef = useRef(null);
+
   useEffect(() => {
-    const $canvas = document.getElementById("background");
+    if (!canvasRef.current) {
+      throw new Error("Canvas not found");
+    }
+
+    const $canvas = canvasRef.current;
     $canvas.width = window.innerWidth * 2;
     $canvas.height = window.innerHeight * 2;
 
@@ -66,7 +71,7 @@ export default function Background() {
         let dx = (Math.random() > 0.5 ? 1 : -1) * Math.random() * 1.5;
         let dy = (Math.random() > 0.5 ? 1 : -1) * Math.random() * 1.5;
 
-        particles.push(new Particle(r, x, y, dx, dy, "#fff"));
+        particles.push(new Particle(r, x, y, dx, dy, "#ddd"));
       }
 
       if (reqId != null) {
@@ -108,5 +113,5 @@ export default function Background() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return <canvas id="background"></canvas>;
+  return <canvas className="fixed top-0 left-0 -z-10 w-screen h-screen bg-slate-950" ref={canvasRef}></canvas>;
 }

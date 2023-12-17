@@ -1,65 +1,60 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --bg-color: #0f0f0f;
-  --dark-grey: #212529;
   --primary-color: #ffb400;
 
-  height: 100%;
   font-family: "Nunito", sans-serif;
-  color: #fff;
+  @apply bg-slate-950 text-white scroll-smooth;
 }
 
 ::-webkit-scrollbar {
   width: 5px; // for vertical scroolbar
   height: 5px; // for horizontal scrollbar
-  background-color: var(--dark-grey);
+  @apply bg-slate-800;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--primary-color);
-  border-radius: 5px;
+  @apply bg-primary rounded-full;
 }
 
-body {
-  height: 100%;
-}
+@layer components {
+  .section {
+    @apply min-h-[75vh] container mx-auto px-4 py-8 flex flex-col items-center justify-center;
 
-#root {
-  height: 100%;
-}
+    &__heading {
+      @apply text-3xl font-bold text-center;
+    }
+  }
 
-a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
+  .link-btn {
+    @apply h-12 border border-primary px-8 rounded-full uppercase bg-none text-white flex items-center justify-center overflow-hidden relative;
+    letter-spacing: 0.9pt;
 
-.page {
-  min-height: 100%;
-  padding: 2rem 1rem 5.75rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+    &::after {
+      content: "";
+      @apply w-full bg-primary absolute top-0 left-0 bottom-0 -z-10 -translate-x-full transition-transform duration-300 ease-in;
+    }
 
-.card {
-  border-radius: 10px;
-  background-color: var(--dark-grey);
-  opacity: 0;
-  animation-name: appear; // defined in index.scss
-  animation-duration: 300ms;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
+    &--next-icon {
+      @apply pr-0;
+    }
 
-  @keyframes appear {
-    to {
-      opacity: 1;
+    &__next-icon {
+      @apply w-12 h-12 rounded-full bg-primary ml-4 flex items-center justify-center;
+
+      svg {
+        @apply w-6 h-6;
+      }
+    }
+
+    &:hover {
+      color: #000;
+
+      &::after {
+        transform: translateX(0);
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
-import NextPageLink from "components/NextPageLink";
-import Project from "components/Project";
-import "./Projects.scss";
+import NextSectionLink from "@/components/NextSectionLink";
 
-const projects = [
+const MY_PROJECTS = [
   {
     name: "Writer's Avenue",
     thumbnail: "/images/projects/blogs.webp",
@@ -61,17 +59,24 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="page" id="projects-page">
-      <h1>My Projects</h1>
+    <section className="section" id="projects-section">
+      <h1 className="section__heading">My Projects</h1>
 
-      <div className="projects">
-        {projects.map((project, i) => (
-          <Project project={project} key={i} appearDelayIndex={i} />
+      <div className="flex justify-center flex-wrap my-4 -mx-4">
+        {MY_PROJECTS.map((project) => (
+          <div key={project.name} className="rounded-lg bg-slate-900 m-4 p-4 max-w-sm">
+            <img src={project.thumbnail} alt={project.name} className="w-full h-48 object-cover" />
+            <h4 className="my-2 text-center text-primary underline">
+              <a href={project.github} target="_blank">
+                {project.name}
+              </a>
+            </h4>
+            <p className="text-sm h-10 overflow-hidden">{project.description}</p>
+          </div>
         ))}
       </div>
 
-      {/* <NextPageLink to="/quotes">Quotes</NextPageLink> */}
-      <NextPageLink to="/connect">Connect</NextPageLink>
-    </div>
+      <NextSectionLink to="#connect-section">Connect</NextSectionLink>
+    </section>
   );
 }
