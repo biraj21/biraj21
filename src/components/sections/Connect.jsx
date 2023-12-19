@@ -23,7 +23,7 @@ export default function Connect() {
 
       <div className="flex justify-center flex-wrap my-4 -mx-4">
         {MY_SOCIALS.map((social) => (
-          <a key={social.name} href={social.link} className="link-btn w-48 m-4 justify-start">
+          <a key={social.name} href={social.link} className="link-btn w-48 m-2 justify-start">
             <span
               className={`w-7 h-7 flex items-center justify-center rounded-full mr-4 ${
                 social.darkIcon ? "bg-white" : ""

@@ -57,7 +57,7 @@ export default function Skills() {
 
       <div className="flex justify-center flex-wrap my-4 -mx-4">
         {MY_SKILLS.map((skill) => (
-          <div key={skill.name} className="rounded-lg bg-slate-900 w-40 flex items-center m-4 p-4">
+          <div key={skill.name} className="rounded-lg bg-slate-900 w-40 flex items-center m-2 p-4">
             {<skill.Svg className="w-6 h-6 mr-4 fill-white" />}
             <span>{skill.name}</span>
           </div>
