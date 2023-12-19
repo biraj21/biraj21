@@ -11,7 +11,7 @@ const SECTIONS = [
 
 export default function Nav() {
   return (
-    <nav className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col p-1 bg-gray-900 rounded-full">
+    <nav className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col p-1 bg-gray-900 bg-opacity-80 rounded-full">
       {SECTIONS.map((section) => (
         <a
           key={section.id}
