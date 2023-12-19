@@ -20,6 +20,13 @@ const MY_PROJECTS = [
     description: "A web based tool that can be used to visualize multi-dimensional arrays.",
   },
   {
+    name: "Web Wanderer",
+    thumbnail: "/images/projects/web-wanderer.webp",
+    github: "https://github.com/biraj21/web-wanderer.webp",
+    description:
+      "A multithreaded web crawler written in Python that uses ThreadPoolExecutor and Playwright to crawl dynamically rendered web pages and download them",
+  },
+  {
     name: "JSON Parser",
     thumbnail: "/images/projects/json-parser.webp",
     github: "https://github.com/biraj21/json-parser",
@@ -38,22 +45,10 @@ const MY_PROJECTS = [
     description: "A very simple command-line text editor written in C with only Standard Library.",
   },
   {
-    name: "Memory Pairs Game",
-    thumbnail: "/images/projects/memory-pairs.webp",
-    github: "https://github.com/biraj21/react-memory-game",
-    description: "A small & fun matching pairs game with minimal UI written in React.",
-  },
-  {
     name: "GitHub Profile Viewer",
     thumbnail: "/images/projects/react-github-api.webp",
     github: "https://github.com/biraj21/react-github-profile",
     description: "A website written in React that uses GitHub Search API to retrive a user's profile.",
-  },
-  {
-    name: "Tic Tac Toe",
-    thumbnail: "/images/projects/tic-tac-toe.webp",
-    github: "https://github.com/biraj21/tic-tac-toe",
-    description: "A Tic Tac Toe game AI using Minimax algorithm with Alpha-Beta Pruning.",
   },
 ];
 
