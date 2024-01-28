@@ -1,6 +1,6 @@
 import Background from "@/components/Background";
 import Nav from "@/components/Nav";
-import Connect from "@/components/sections/Connect";
+import Footer from "@/components/sections/Footer";
 import Home from "@/components/sections/Home";
 import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
@@ -13,7 +13,7 @@ export default function App() {
       <Home />
       <Skills />
       <Projects />
-      <Connect />
+      <Footer />
 
       <Nav />
     </div>

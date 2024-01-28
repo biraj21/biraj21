@@ -4,7 +4,7 @@ const SECTIONS = [
   { id: "", Icon: Home },
   { id: "skills-section", Icon: Code },
   { id: "projects-section", Icon: Folder },
-  { id: "connect-section", Icon: Link },
+  // { id: "connect-section", Icon: Link },
 ];
 
 export default function Nav() {

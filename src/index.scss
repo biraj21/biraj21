@@ -19,6 +19,10 @@
   @apply bg-primary rounded-full;
 }
 
+.animation-delay-100 {
+  animation-delay: 100ms;
+}
+
 @layer components {
   .section {
     @apply container mx-auto px-4 py-8 flex flex-col items-center justify-center;
