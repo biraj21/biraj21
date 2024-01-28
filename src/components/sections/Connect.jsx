@@ -19,13 +19,13 @@ const MY_SOCIALS = [
 export default function Connect() {
   return (
     <section className="section" id="connect-section">
-      <h1 className="section__heading">My Socials</h1>
+      <h1 className="section__heading">Socials</h1>
 
       <div className="flex justify-center flex-wrap my-4 -mx-4">
         {MY_SOCIALS.map((social) => (
-          <a key={social.name} href={social.link} className="link-btn w-48 m-2 justify-start">
+          <a key={social.name} href={social.link} className="link-btn normal-case m-2 justify-start">
             <span
-              className={`w-7 h-7 flex items-center justify-center rounded-full mr-4 ${
+              className={`w-7 h-7 flex items-center justify-center rounded-full mr-2 ${
                 social.darkIcon ? "bg-white" : ""
               }`}
             >

@@ -1,6 +1,4 @@
-import { Home, Code, Link, Folder } from "react-feather";
-
-// import "./Nav.scss";
+import { Home, Code, Folder, Link } from "react-feather";
 
 const SECTIONS = [
   { id: "", Icon: Home },
@@ -11,7 +9,7 @@ const SECTIONS = [
 
 export default function Nav() {
   return (
-    <nav className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col p-1 bg-gray-900 bg-opacity-80 rounded-full">
+    <nav className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col p-1 border-2 border-gray-800 rounded-full backdrop-blur-md drop-shadow-lg">
       {SECTIONS.map((section) => (
         <a
           key={section.id}

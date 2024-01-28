@@ -45,7 +45,7 @@ export default function Background() {
 
     const ctx = $canvas.getContext("2d");
 
-    let particles = null;
+    let particles = [];
     let reqId = null;
 
     init();
@@ -60,16 +60,15 @@ export default function Background() {
     }
 
     function init() {
-      let numParticles = Math.min(400, Math.round(($canvas.width * $canvas.height) / 9500));
-
+      let numParticles = Math.min(350, Math.round(($canvas.width * $canvas.height) / 10_000));
       particles = [];
 
       for (let i = 0; i < numParticles; ++i) {
         let r = Math.random() * 3 + 1;
         let x = Math.random() * ($canvas.width - r) + r;
         let y = Math.random() * ($canvas.height - r) + r;
-        let dx = (Math.random() > 0.5 ? 1 : -1) * Math.random() * 1.5;
-        let dy = (Math.random() > 0.5 ? 1 : -1) * Math.random() * 1.5;
+        let dx = (Math.random() > 0.5 ? 1 : -1) * Math.random();
+        let dy = (Math.random() > 0.5 ? 1 : -1) * Math.random();
 
         particles.push(new Particle(r, x, y, dx, dy, "#ddd"));
       }
