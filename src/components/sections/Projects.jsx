@@ -55,12 +55,15 @@ const MY_PROJECTS = [
 export default function Projects() {
   return (
     <section className="section" id="projects-section">
-      <h1 className="section__heading">Projects</h1>
+      <h2 className="section__heading">Projects</h2>
 
-      <div className="flex justify-center flex-wrap my-4 -mx-4">
+      <div className="flex justify-center flex-wrap my-4 -mx-2">
         {MY_PROJECTS.map((project) => (
-          <div key={project.name} className="rounded-lg bg-slate-900 m-4 p-4 max-w-sm drop-shadow-md">
-            <img src={project.thumbnail} alt={project.name} className="w-full h-44 object-cover" />
+          <div
+            key={project.name}
+            className="rounded-lg bg-slate-900 m-2 p-4 w-full sm:max-w-xs lg:max-w-sm drop-shadow-md"
+          >
+            <img src={project.thumbnail} alt={project.name} className="w-full h-44 object-cover object-top" />
             <h4 className="my-2 text-center text-primary underline">
               <a href={project.github} target="_blank">
                 {project.name}

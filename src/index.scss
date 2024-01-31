@@ -28,7 +28,7 @@
     @apply container mx-auto px-4 py-8 flex flex-col items-center justify-center;
 
     &__heading {
-      @apply text-3xl font-bold text-center flex items-center justify-center;
+      @apply text-3xl font-bold text-center flex items-center justify-center mb-4;
 
       &::before,
       &::after {

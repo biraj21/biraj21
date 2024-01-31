@@ -55,9 +55,9 @@ const MY_SKILLS = [
 export default function Skills() {
   return (
     <section className="section" id="skills-section">
-      <h1 className="section__heading">Skills</h1>
+      <h2 className="section__heading">Skills</h2>
 
-      <div className="flex justify-center flex-wrap my-4 -mx-4">
+      <div className="flex justify-center flex-wrap my-4 -mx-2">
         {MY_SKILLS.map((skill) => (
           <div key={skill.name} className="rounded-lg bg-slate-900 flex items-center m-2 px-4 py-2 drop-shadow-md">
             {<skill.Svg className="w-4 h-4 mr-2 fill-white" />}
