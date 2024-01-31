@@ -3,7 +3,12 @@ import Socials from "../Socials";
 export default function Footer() {
   return (
     <footer className="mt-4 p-4 text-center">
-      <div className="mb-4">
+      <p>
+        <a href="mailto:biraj.pub@gmail.com" className="underline">
+          biraj.pub@gmail.com
+        </a>
+      </p>
+      <div className="my-4">
         <Socials />
       </div>
 
