@@ -1,7 +1,7 @@
 import Background from "@/components/Background";
 import Nav from "@/components/Nav";
 import Footer from "@/components/sections/Footer";
-import Home from "@/components/sections/Home";
+import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
 
@@ -10,7 +10,7 @@ export default function App() {
     <div className="app">
       <Background />
 
-      <Home />
+      <Hero />
       <Skills />
       <Projects />
       <Footer />

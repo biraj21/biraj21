@@ -2,7 +2,7 @@ import NextSectionLink from "@/components/NextSectionLink";
 
 import Socials from "@/components/Socials";
 
-export default function Home() {
+export default function Hero() {
   return (
     <section className="section items-start py-20">
       <h1 className="text-primary text-5xl sm:text-5xl font-bold">Hello, I'm Biraj!</h1>
