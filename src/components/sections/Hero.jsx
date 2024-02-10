@@ -15,10 +15,8 @@ export default function Hero() {
           I'm a <span className="text-primary font-medium">Software Developer</span> based in <em>Bangalore, India</em>.
           Seamlessly integrating user-friendly experiences with robust code, I fuse technology and business insight to
           deliver comprehensive solutions.
-        </p>
-
-        <p className="mt-1">
-          Enginnering{" "}
+          <br />
+          Currently engineering{" "}
           <a href="https://www.thinkstack.ai/" target="_blank" className="text-primary underline">
             thinkstack.ai
           </a>
