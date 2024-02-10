@@ -99,7 +99,7 @@ export default function Background() {
 
           if (distance < 100) {
             ctx.beginPath();
-            ctx.strokeStyle = "#707070";
+            ctx.strokeStyle = "#505050";
             ctx.lineWidth = 1;
             ctx.moveTo(p1.x, p1.y);
             ctx.lineTo(p2.x, p2.y);
