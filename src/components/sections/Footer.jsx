@@ -4,11 +4,11 @@ export default function Footer() {
   return (
     <footer className="mt-4 p-4 text-center">
       <p>
-        <a href="mailto:biraj.pub@gmail.com" className="underline">
+        <a href="mailto:biraj.pub@gmail.com" className="underline text-lg">
           biraj.pub@gmail.com
         </a>
       </p>
-      <div className="my-4">
+      <div className="mt-8 mb-4">
         <Socials />
       </div>
 

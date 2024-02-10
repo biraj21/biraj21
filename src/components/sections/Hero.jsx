@@ -5,7 +5,7 @@ import Socials from "@/components/Socials";
 export default function Hero() {
   return (
     <section className="section items-start py-20">
-      <h1 className="text-primary text-5xl sm:text-5xl font-bold">Hello, I'm Biraj!</h1>
+      <h1 className="text-primary text-5xl font-bold">Hello, I'm Biraj!</h1>
       <p className="text-2xl my-2 font-bold">
         I turn code into <em>impactful products</em>.
       </p>
@@ -17,7 +17,15 @@ export default function Hero() {
           deliver comprehensive solutions.
         </p>
 
-        <p className="mt-2">
+        <p className="mt-1">
+          Enginnering{" "}
+          <a href="https://www.thinkstack.ai/" target="_blank" className="text-primary underline">
+            thinkstack.ai
+          </a>
+          .
+        </p>
+
+        <p className="mt-4">
           You can reach me at{" "}
           <a href="mailto:biraj.pub@gmail.com" className="text-primary underline">
             biraj.pub@gmail.com

@@ -44,12 +44,12 @@ const MY_PROJECTS = [
     github: "https://github.com/biraj21/brainfuck-interpreter",
     description: "An interpreter for the Brainf*ck programming language written in C.",
   },
-  {
-    name: "GitHub Profile Viewer",
-    thumbnail: "/images/projects/react-github-api.webp",
-    github: "https://github.com/biraj21/react-github-profile",
-    description: "A website written in React that uses GitHub Search API to retrive a user's profile.",
-  },
+  // {
+  //   name: "GitHub Profile Viewer",
+  //   thumbnail: "/images/projects/react-github-api.webp",
+  //   github: "https://github.com/biraj21/react-github-profile",
+  //   description: "A website written in React that uses GitHub Search API to retrive a user's profile.",
+  // },
 ];
 
 export default function Projects() {
