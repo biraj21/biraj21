@@ -2,8 +2,10 @@
 
 i'm an average competent software developer. i am a chess amateur (roughly 1700 on chess.com) and i like reading Sherlock Holmes.
 
+- 👨‍💻 my projects are available here
+- 🤡 you can know more about me at [biraj21.github.io](https://biraj21.github.io)
 - 📫 you can reach me at **biraj.pub@gmail.com**
-- 👨‍💻 my projects are available at [https://biraj21.github.io/](https://biraj21.github.io)
+
 
 <table align="right">
     <tr><td>
