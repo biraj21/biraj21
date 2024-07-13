@@ -1,8 +1,8 @@
-<h1 align="center">hi, i'm Biraj</h1>
+<h1 align="center">biraj (બિરજ) - wannabe engineer</h1>
 
 i'm an average competent software developer. i am a chess amateur (roughly 1700 on chess.com) and i like reading Sherlock Holmes.
 
-- 🌱 i'm currently learning Go
+- 🌱 i'm currently learning some software engineering by understaning the internals of Docker, Redis, React etc.
 - 👨‍💻 my projects are available here
 - 📫 you can reach me at **biraj.pub@gmail.com**
 - 🤡 you can know more about me at [biraj21.github.io](https://biraj21.github.io)
