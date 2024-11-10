@@ -1,6 +1,6 @@
 <h1 align="center">biraj (બિરજ) - wannabe engineer</h1>
 
-i'm an average competent software developer. i am a chess amateur (roughly 1700 on chess.com) and i like reading Sherlock Holmes.
+i am a software developer. i play chess (roughly 1700 on chess.com) and badminton. i am currently reading Sherlock Holmes (not consistently tho).
 
 - 🌱 i'm currently learning some software engineering by understaning the internals of Docker, Redis, React etc.
 - 👨‍💻 my projects are available here
