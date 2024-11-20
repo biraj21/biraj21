@@ -1,5 +1,5 @@
 <p align="center">
-[biraj21.github.io](https://biraj21.github.io)
+<a href="https://biraj21.github.io">biraj21.github.io</a>
 </p>
 
 <table align="right">
