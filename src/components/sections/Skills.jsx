@@ -64,7 +64,7 @@ export default function Skills() {
             className="rounded-lg bg-slate-900 flex items-center m-1 px-4 py-2 drop-shadow-md text-xs"
           >
             {<skill.Svg className="w-3 h-3 mr-2 fill-white" />}
-            <span className="text-slate-300">{skill.name}</span>
+            <span className="text-slate-200">{skill.name}</span>
           </div>
         ))}
       </div>

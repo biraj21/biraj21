@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="section items-start">
       <h1 className="text-primary text-5xl font-bold">{"hi, i'm Biraj!"}</h1>
       <p className="text-xl mt-2">i know a little bit about software engineering.</p>
-      <div className="text-slate-300">
+      <div className="text-slate-200">
         <p className="mt-4">
           {"i am currently working as a founding backend engineer at "}
           <a href="https://outspeed.com" target="_blank" className="text-primary underline">

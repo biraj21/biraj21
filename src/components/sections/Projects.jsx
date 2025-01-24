@@ -27,6 +27,13 @@ const MY_PROJECTS = [
     liveLink: "https://arrayvis.netlify.app/",
   },
   {
+    name: "focker: Linux containers",
+    github: "source code",
+    description:
+      "Focker is a toy container runtime written in Go. it is based on Ubuntu 22.04 rootfs. this was an attempt to understand how Docker works internally.",
+    techStackSvgs: [GoSvg],
+  },
+  {
     name: "AI search",
     github: "source code",
     description:
@@ -45,13 +52,6 @@ const MY_PROJECTS = [
     github: "source code",
     description:
       "a CLI took to run Go programs in watch mode. to watch for changes, it uses kqueue() system call on macOS and inotify on Linux. no 3rd-party dependencies.",
-    techStackSvgs: [GoSvg],
-  },
-  {
-    name: "focker: Linux containers",
-    github: "source code",
-    description:
-      "Focker is a toy container runtime written in Go. it is based on Ubuntu 22.04 rootfs. this was an attempt to understand how Docker works internally.",
     techStackSvgs: [GoSvg],
   },
   {
@@ -107,7 +107,7 @@ export default function Projects() {
         {MY_PROJECTS.map((project) => (
           <div
             key={project.name}
-            className="rounded-lg p-4 border border-slate-900 bg-slate-800/20 backdrop-blur-sm hover:hover:border-primary"
+            className="rounded-lg p-4 border border-slate-800 bg-slate-800/20 backdrop-blur-xs hover:hover:border-primary"
           >
             <div className="mb-2 flex items-center">
               <a href={project.github} target="_blank" className="text-primary underline">
@@ -130,7 +130,7 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-            <p className="text-sm text-slate-300">{project.description}</p>
+            <p className="text-sm text-slate-200">{project.description}</p>
           </div>
         ))}
       </div>
