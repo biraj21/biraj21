@@ -57,7 +57,7 @@ export default function Skills() {
     <section className="section" id="skills-section">
       <h2 className="section__heading">skills</h2>
 
-      <div className="flex justify-center flex-wrap my-4 -mx-2">
+      <div className="flex justify-center flex-wrap -mx-2">
         {MY_SKILLS.map((skill) => (
           <div
             key={skill.name}
