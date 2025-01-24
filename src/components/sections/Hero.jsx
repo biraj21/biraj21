@@ -1,42 +1,33 @@
-import NextSectionLink from "@/components/NextSectionLink";
-
-import Socials from "@/components/Socials";
-
 export default function Hero() {
   return (
-    <section className="section items-start py-20">
-      <h1 className="text-primary text-5xl font-bold">Hello, I'm Biraj!</h1>
-      <p className="text-2xl my-2 font-bold">
-        I turn code into <em>impactful products</em>.
-      </p>
+    <section className="section items-start">
+      <h1 className="text-primary text-5xl font-bold">{"hi, i'm Biraj!"}</h1>
 
-      <div className="max-w-5xl text-xl text-slate-200">
-        <p>
-          I'm a <span className="text-primary font-medium">Software Developer</span> based in <em>Bangalore, India</em>.
-          Seamlessly integrating user-friendly experiences with robust code, I fuse technology and business insight to
-          deliver comprehensive solutions.
-          <br />
-          Currently engineering{" "}
-          <a href="https://www.thinkstack.ai/" target="_blank" className="text-primary underline">
-            thinkstack.ai
-          </a>
-          .
-        </p>
+      <div className="text-slate-300 mt-4">
+        <p className="text-xl">i know a little bit about software engineering.</p>
 
         <p className="mt-4">
-          You can reach me at{" "}
-          <a href="mailto:biraj.pub@gmail.com" className="text-primary underline">
-            biraj.pub@gmail.com
+          {"i am currently working as a founding backend engineer at "}
+          <a href="https://outspeed.com" target="_blank" className="text-primary underline">
+            Outspeed
+          </a>
+          {". i blunder in chess (1900 rapid on "}
+          <a href="https://lichess.org/@/biraj21" target="_blank" className="text-primary underline">
+            lichess
+          </a>
+          {") and life. i also play badminton on weekends. i occasionally read Sherlock Holmes, and am a big fan of "}
+          <a href="https://www.imdb.com/title/tt1196946/" target="_blank" className="text-primary underline">
+            The Mentalist
+          </a>
+          .
+          <br />
+          my resume is available at{" "}
+          <a href="https://biraj21.github.io" target="_blank" className="text-primary underline">
+            biraj21.github.io
           </a>
           .
         </p>
       </div>
-
-      <div className="mt-8 w-full">
-        <Socials />
-      </div>
-
-      {/* <NextSectionLink to="#skills-section">Skills</NextSectionLink> */}
     </section>
   );
 }

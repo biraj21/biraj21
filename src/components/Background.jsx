@@ -67,8 +67,8 @@ export default function Background() {
         let r = Math.random() * 3 + 1;
         let x = Math.random() * ($canvas.width - r) + r;
         let y = Math.random() * ($canvas.height - r) + r;
-        let dx = (Math.random() > 0.5 ? 1 : -1) * Math.random();
-        let dy = (Math.random() > 0.5 ? 1 : -1) * Math.random();
+        let dx = (Math.random() > 0.5 ? 0.7 : -0.7) * Math.random();
+        let dy = (Math.random() > 0.5 ? 0.7 : -0.7) * Math.random();
 
         particles.push(new Particle(r, x, y, dx, dy, "#ddd"));
       }

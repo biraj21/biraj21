@@ -1,10 +1,9 @@
-import { Home, Code, Folder, Link } from "react-feather";
+import { Home, Code, Folder } from "react-feather";
 
 const SECTIONS = [
   { id: "", Icon: Home },
   { id: "skills-section", Icon: Code },
   { id: "projects-section", Icon: Folder },
-  // { id: "connect-section", Icon: Link },
 ];
 
 export default function Nav() {

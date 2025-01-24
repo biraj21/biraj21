@@ -1,13 +1,13 @@
-import { faDev, faGithub, faLinkedin, faUpwork, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faDev, faGithub, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MY_SOCIALS = [
   { name: "GitHub", icon: faGithub, link: "https://github.com/biraj21" },
+  { name: "X", icon: faXTwitter, link: "https://x.com/not_salgaonkar" },
   { name: "LinkedIn", icon: faLinkedin, link: "https://www.linkedin.com/in/biraj21" },
   // { name: "Kaggle", Svg: Kaggle, link: "https://www.kaggle.com/biraj21/" },
-  { name: "X", icon: faXTwitter, link: "https://x.com/not_salgaonkar" },
   { name: "DEV", icon: faDev, link: "https://dev.to/biraj21" },
-  { name: "Upwork", icon: faUpwork, link: "https://www.upwork.com/freelancers/~0128419153d91057b6" },
+  // { name: "Upwork", icon: faUpwork, link: "https://www.upwork.com/freelancers/~0128419153d91057b6" },
 ];
 
 export default function Socials() {

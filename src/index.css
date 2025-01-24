@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Rubik", sans-serif;
+  @apply bg-slate-950 text-white scroll-smooth;
+}
+
+@theme {
+  --color-primary: #ffb400;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* for vertical scrollbar */
+  height: 5px; /* for horizontal scrollbar */
+  @apply bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full;
+}
+
+@layer components {
+  .section {
+    @apply container mx-auto px-4 py-8 flex flex-col items-center justify-center;
+  }
+  .section__heading {
+    @apply text-3xl font-bold text-center flex items-center justify-center mb-4;
+  }
+  .section__heading::before,
+  .section__heading::after {
+    content: "";
+    @apply block h-0.5 w-16 bg-primary;
+  }
+  .section__heading::before {
+    @apply mr-4;
+  }
+  .section__heading::after {
+    @apply ml-4;
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+}
