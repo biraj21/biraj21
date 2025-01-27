@@ -13,14 +13,14 @@ import TypeScriptSvg from "@/assets/devicons/typescript-original.svg?react";
 const MY_PROJECTS = [
   {
     name: "NumPy from scratch in Go",
-    github: "source code",
+    github: "https://github.com/biraj21/neural-networks-from-scratch",
     description:
       "i am implementing Neural Networks from scratch in Go and as a byproduct of it, i also created my own version of NumPy for tensor operations like +, -, *, /, matrix multiplication, transpose etc. it also supports broadcasting.",
     techStackSvgs: [GoSvg],
   },
   {
     name: "tensor visualizer",
-    github: "source code | try it",
+    github: "https://github.com/biraj21/tensor-visualizer",
     description:
       "a tool that helps you visualize multi-dimensional arrays. uses HTML canvas for rendering the image. i wrote this when i was trying to understand neural networks.",
     techStackSvgs: [JavaScriptSvg],
@@ -28,63 +28,63 @@ const MY_PROJECTS = [
   },
   {
     name: "focker: Linux containers",
-    github: "source code",
+    github: "https://github.com/biraj21/focker",
     description:
       "Focker is a toy container runtime written in Go. it is based on Ubuntu 22.04 rootfs. this was an attempt to understand how Docker works internally.",
     techStackSvgs: [GoSvg],
   },
   {
     name: "AI search",
-    github: "source code",
+    github: "https://github.com/biraj21/ai-search",
     description:
       "an AI search tool (like Perplexity) that pulls data from Google Custom Search JSON API and uses Llama 3 to generate answer with citations.",
     techStackSvgs: [NodeJsSvg, ReactSvg],
   },
   {
     name: "TCP server",
-    github: "source code",
+    github: "https://github.com/biraj21/tcp-server",
     description:
       "a single-threaded TCP server written in C with an event loop using the poll() system call, without any third-party library. the server listens on a port and echoes back received data. i've also written a simple client to test the server.",
     techStackSvgs: [CSvg],
   },
   {
     name: "gomon: nodemon for Go files",
-    github: "source code",
+    github: "https://github.com/biraj21/gomon",
     description:
       "a CLI took to run Go programs in watch mode. to watch for changes, it uses kqueue() system call on macOS and inotify on Linux. no 3rd-party dependencies.",
     techStackSvgs: [GoSvg],
   },
   {
     name: "web wanderer",
-    github: "source code",
+    github: "https://github.com/biraj21/web-wanderer",
     description:
       "a multi-threaded web crawler written in Python. uses concurrent.futures.ThreadPoolExecutor and Playwright to crawl and download web pages. it handles dynamically rendered websites, making it capable of extracting content from sites written in React, Vue, etc.",
     techStackSvgs: [PythonSvg],
   },
   {
     name: "JSON parser",
-    github: "source code",
+    github: "https://github.com/biraj21/json-parser",
     description:
       "a JSON parser written in Go from scratch. prints error message with line and column number. Phil Eaton's blog post helped me write the lexer and parser. it was fun.",
     techStackSvgs: [GoSvg],
   },
   {
     name: "texterm",
-    github: "source code",
+    github: "https://github.com/biraj21/texterm",
     description:
       "a minimal, nano-like text editor written in C from scratch. i followed Build Your Own Text Editor article. learnt a lot about C and linux terminals during this.",
     techStackSvgs: [CSvg],
   },
   {
     name: "brainfuck interpreter",
-    github: "source code",
+    github: "https://github.com/biraj21/brainfuck-interpreter",
     description:
       "a Brainfuck interpreter in C that combines repeated instructions, like +++++ +++++ into { '+' : 10 }, speeding up execution. it can also transpile Brainfuck code to C.",
     techStackSvgs: [CSvg],
   },
   {
     name: "findREp",
-    github: "source code",
+    github: "https://github.com/biraj21/findrep",
     description:
       "a GUI tool written with Tkinter in Python to find and replace all the matches of a regular expression in files and folders (recursively). i wrote this because i wasn't aware of VS Code's search functionality at the time.",
     techStackSvgs: [PythonSvg],
