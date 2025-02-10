@@ -70,7 +70,7 @@ export default function Background() {
         let dx = (Math.random() > 0.5 ? 0.7 : -0.7) * Math.random();
         let dy = (Math.random() > 0.5 ? 0.7 : -0.7) * Math.random();
 
-        particles.push(new Particle(r, x, y, dx, dy, "#ddd"));
+        particles.push(new Particle(r, x, y, dx, dy, "#afafaf"));
       }
 
       if (reqId != null) {
