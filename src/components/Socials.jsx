@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MY_SOCIALS = [
   { name: "GitHub", icon: faGithub, link: "https://github.com/biraj21" },
-  { name: "X", icon: faXTwitter, link: "https://x.com/not_salgaonkar" },
+  { name: "X", icon: faXTwitter, link: "https://x.com/biraj21_" },
   // { name: "LinkedIn", icon: faLinkedin, link: "https://www.linkedin.com/in/biraj21" },
   // { name: "Kaggle", Svg: Kaggle, link: "https://www.kaggle.com/biraj21/" },
   { name: "DEV", icon: faDev, link: "https://dev.to/biraj21" },
