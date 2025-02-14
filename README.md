@@ -4,7 +4,7 @@
 
 
 <img width="400px"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=biraj21&show_icons=true&locale=en&layout=compact&hide_border=true&theme=dark&icon_color=5194f0&bg_color=0d1117"
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=biraj21&show_icons=true&locale=en&layout=compact&hide_border=true&theme=dark&icon_color=5194f0&bg_color=0d1117&hide=html,scss,css"
     alt="biraj21" />
 <br />
 <img width="400px"
